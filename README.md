@@ -18,4 +18,5 @@ Scripts:
 Models:
 
 	User: Basic model for a user
-	TemplObj: Template object because users always need ownership of something or other, find and replace with desired actual thing
+	TemplObj: Template object because users always need ownership of
+		  something or other, find and replace with desired actual thing
