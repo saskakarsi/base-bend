@@ -10,3 +10,4 @@ config/*.env requires:
 	MONGODB_URL: form mongodb://${address}:${port}/${database-name}
 	SYSTEM_EMAIL: email addr for automated email sending
 
+Scripts: npm run dev uses dev.env and npn run test uses test.env.
