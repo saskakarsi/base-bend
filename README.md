@@ -3,6 +3,7 @@
 Base node backend as a project starting point
 
 config/*.env requires:
+
 	PORT: port to serve on
 	SENDGRID_API_KEY: API key from SendGrid for sending emails
 	JWT_SECRET: what it says on the tin, string
