@@ -101,7 +101,7 @@ userSchema.pre('save', async function (next) {
 // Delete user templObjs before user
 userSchema.pre('remove', async function (next) {
     const user = this
-    await templObj.deleteMany({ owner: user._id })
+    await TemplObj.deleteMany({ owner: user._id })
     next()
 })
 
