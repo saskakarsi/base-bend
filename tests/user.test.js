@@ -1,6 +1,6 @@
 const request = require('supertest')
 const jwt = require('jsonwebtoken')
-const app = require ('../src/app')
+const { app } = require ('../src/server')
 const User = require('../src/models/user')
 const { baseUser, baseUserId, initDB } = require('./fixtures/db')
 
