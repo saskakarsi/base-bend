@@ -11,20 +11,20 @@
   "author": "Saska Karsi",
   "license": "ISC",
   "devDependencies": {
-    "env-cmd": "^10.0.1",
+    "env-cmd": "^10.1.0",
     "jest": "^24.9.0",
-    "nodemon": "^1.19.3",
+    "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
   },
   "dependencies": {
-    "@sendgrid/mail": "^6.4.0",
+    "@sendgrid/mail": "^6.5.4",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.3.2",
-    "mongoose": "^5.7.4",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.4",
     "multer": "^1.4.2",
-    "sharp": "^0.23.1",
+    "sharp": "^0.23.4",
     "socket.io": "^2.3.0",
     "validator": "^11.1.0"
   }
